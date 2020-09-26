@@ -32,15 +32,14 @@ class Employee{
 }
 
 public class EmployeeDemo {
-
 	public static void main(String[] args) {
-		Employee e[]=new Employee[3];
+		Employee e[]=new Employee[5];
 		Scanner sc=new Scanner(System.in);
 		System.out.println("Enter 5 employee details : ");
 		int empid,count=0;
 		String name;
 		double salary;
-		for(int k=0;k<3;k++) {
+		for(int k=0;k<5;k++) {
 			System.out.print("Enter empid : ");
 			empid=sc.nextInt();
 			System.out.print("Enter name : ");
@@ -52,7 +51,7 @@ public class EmployeeDemo {
 			{
 				if(e[j].getId()==empid)
 				{
-					System.out.println("empid is already prsent");
+					System.out.println("empid is already present enter again");
 					flag=1;
 					k--;
 					break;
