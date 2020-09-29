@@ -35,7 +35,7 @@ public class DayQ58{
 		}
 		catch(ArrayIndexOutOfBoundsException a) {
 			System.out.println("Please enter valid position....");
-			a.printStackTrace();
+//			a.printStackTrace();
 		}
 		sc.close();
 	}
