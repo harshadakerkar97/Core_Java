@@ -48,8 +48,9 @@ public class Anagram {
 		}
 	}
 	public static void main(String[] args) {
-		if(check("catkk","kactl"))
+		if(check("catkk","kactl")) {
 			System.out.println("Anagram");
+		}
 		else
 			System.out.println("Not anagram....");
 	}

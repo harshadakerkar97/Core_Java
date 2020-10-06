@@ -1,0 +1,3 @@
+this is file write using buffered Writer
+this is second line
+this is file write using buffered Writer
