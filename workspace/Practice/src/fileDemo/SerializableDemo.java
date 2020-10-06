@@ -1,11 +1,11 @@
 package fileDemo;
 
-import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.ObjectOutputStream;
 import java.io.Serializable;
 
+@SuppressWarnings("serial")
 class Employee implements Serializable{
 	private int id;
 	private String name;
