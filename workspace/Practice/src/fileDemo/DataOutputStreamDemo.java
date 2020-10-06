@@ -2,7 +2,7 @@ package fileDemo;
 import java.io.*;
 public class DataOutputStreamDemo {
 	public static void main(String[] args) throws IOException {
-		FileInputStream f=new FileInputStream("H:\\Java1\\Core_Java\\workspace\\Practice\\src\\fileDemo\\dir\\my2.txt");
+		FileInputStream f=new FileInputStream("H:\\Java1\\Core_Java\\workspace\\Practice\\src\\fileDemo\\dir\\my.txt");
 		DataInputStream d=new DataInputStream(f);
 		int i=d.readInt();
 		String s=d.readUTF();
